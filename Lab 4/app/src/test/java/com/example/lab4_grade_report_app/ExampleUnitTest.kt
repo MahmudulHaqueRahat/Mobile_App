@@ -1,4 +1,4 @@
-package com.example.lan4_grade_report_app
+package com.example.lab4_grade_report_app
 
 import org.junit.Test
 

@@ -1,4 +1,4 @@
-package com.example.lan4_grade_report_app
+package com.example.lab4_grade_report_app
 
 import androidx.test.platform.app.InstrumentationRegistry
 import androidx.test.ext.junit.runners.AndroidJUnit4

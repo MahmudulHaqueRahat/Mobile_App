@@ -3,7 +3,7 @@ plugins {
 }
 
 android {
-    namespace = "com.example.lan4_grade_report_app"
+    namespace = "com.example.lab4_grade_report_app"
     compileSdk {
         version = release(36) {
             minorApiLevel = 1
