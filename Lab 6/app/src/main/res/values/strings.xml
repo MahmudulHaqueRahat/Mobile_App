@@ -1,0 +1,59 @@
+<resources>
+    <string name="app_name">NewsReaderApp</string>
+    <string name="toolbar_title">The Daily Reader</string>
+    <string name="category_tech">TECHNOLOGY</string>
+    <string name="article_main_title">The Future of Technology: Transforming Our World</string>
+    <string name="author_name">John Doe</string>
+    <string name="article_date">Oct 24, 2023 • 8 min read</string>
+
+    <string name="title_intro">Introduction</string>
+    <string name="title_key_points">Key Points</string>
+    <string name="title_analysis">Analysis</string>
+    <string name="title_conclusion">Conclusion</string>
+
+    <string name="article1">The rapid advancement of technology has transformed the way people live, work, and communicate.
+        Over the past decade, digital innovation has become deeply embedded in everyday life, influencing industries ranging from healthcare to education.
+        Smartphones, cloud computing, and artificial intelligence are no longer futuristic concepts but essential tools that shape modern society.
+        As access to the internet continues to expand globally, more individuals are becoming connected, opening new opportunities for learning, collaboration, and economic growth.
+        However, this progress also raises important questions about privacy, data security, and the digital divide.
+        While some communities benefit from high-speed connectivity and cutting-edge devices, others still struggle with limited access to basic digital resources.
+        Understanding both the advantages and challenges of this technological era is crucial for building a more inclusive and sustainable future where innovation serves everyone equally.</string>
+    <string name="article2">One of the most significant developments in modern technology is the rise of artificial intelligence and automation.
+        These technologies are reshaping industries by improving efficiency, reducing human error, and enabling faster decision-making processes.
+        In healthcare, AI-powered systems assist doctors in diagnosing diseases more accurately, while in finance, automated tools help detect fraud and manage investments.
+        Another important trend is the growth of remote work, driven by digital communication platforms and cloud-based tools.
+        This shift has allowed companies to operate globally while offering employees greater flexibility. Additionally, the expansion of e-commerce has changed consumer behavior, making online shopping more convenient than ever before.
+        Despite these benefits, concerns about job displacement, cybersecurity threats, and ethical use of technology continue to grow.
+        Addressing these issues requires collaboration between governments, businesses, and individuals to ensure responsible and balanced technological progress.</string>
+    <string name="article3"> While technological innovation offers numerous benefits, its impact is not evenly distributed across society.
+        Developed regions often experience rapid adoption of new technologies, while developing areas may face challenges such as limited infrastructure, high costs, and lack of digital literacy.
+        This imbalance can widen existing inequalities, making it harder for underserved communities to compete in a technology-driven world. Furthermore, the increasing reliance on digital systems raises concerns about data privacy and surveillance.
+        Many users are unaware of how their personal information is collected, stored, and used by companies.
+        This lack of transparency can lead to misuse of data and loss of trust. On the other hand, technology also provides powerful tools for education, enabling students to access information and resources from anywhere in the world.
+        To maximize the positive impact, it is essential to promote digital inclusion, strengthen regulations, and encourage ethical practices in technology development.</string>
+    <string name="article4">Technology will continue to play a central role in shaping the future, influencing how societies evolve and interact.
+        The key challenge lies in ensuring that its benefits are accessible to all while minimizing potential risks.
+        Governments and organizations must work together to create policies that promote innovation while protecting users rights and privacy.
+        Investment in education and digital skills training is also critical to prepare individuals for the demands of a rapidly changing world.
+        By fostering a culture of responsible innovation, society can harness the full potential of technology to solve complex global problems, from climate change to healthcare accessibility.
+        Ultimately, the goal should be to create a balanced ecosystem where technology enhances human well-being without compromising ethical values.
+        With careful planning and collaboration, the future can be one where technological progress leads to greater equality, opportunity, and sustainable development for everyone.</string>
+
+    <string name="tags_header">Tags:</string>
+    <string name="tag_ai">AI</string>
+    <string name="tag_ml">Machine Learning</string>
+    <string name="tag_tech">Technology</string>
+    <string name="tag_future">Future</string>
+
+    <string name="related_header">Related Articles</string>
+    <string name="related_1">Ethics in the Age of Automation</string>
+    <string name="related_2">The Role of Data Science in AI</string>
+    <string name="related_3">Quantum Computing: The Next Frontier</string>
+
+    <string name="desc_bookmark">Bookmark</string>
+    <string name="desc_share">Share</string>
+    <string name="desc_header">Article Header Image</string>
+    <string name="desc_avatar">Author Avatar</string>
+    <string name="desc_back_to_top">Back to top</string>
+    <string name="desc_related_thumb">Related Article Thumbnail</string>
+</resources>
