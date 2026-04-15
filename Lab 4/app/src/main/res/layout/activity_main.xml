@@ -1,0 +1,111 @@
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="16dp">
+
+    <TableLayout
+        android:id="@+id/mainTable"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:stretchColumns="*">
+
+        <TableRow>
+            <TextView
+            android:text="Name: MD.MAHMUDUL HAQUE RAHAT"
+                android:textStyle="bold"
+            android:textSize="16sp"
+            android:layout_span="4"/></TableRow>
+        <TableRow>
+            <TextView
+            android:text="ID: 22-47347-2"
+                android:textStyle="bold"
+                android:layout_span="4"/>
+        </TableRow>
+        <TableRow
+            android:layout_marginBottom="16dp">
+            <TextView
+                android:text="Sem: 12th"
+                android:textStyle="bold"
+                android:layout_span="2"/>
+            <TextView
+                android:text="Dept: CSE"
+                android:textStyle="bold"
+                android:layout_span="2"/>
+        </TableRow>
+
+        <TableRow
+            android:background="@color/header_bg"
+            android:padding="8dp">
+            <TextView
+                android:text="Subject"
+                android:textColor="#FFFFFF"
+                android:textStyle="bold" />
+            <TextView
+                android:text="Obtained"
+                android:textColor="#FFFFFF"
+                android:textStyle="bold" />
+            <TextView
+                android:text="Total"
+                android:textColor="#FFFFFF"
+                android:textStyle="bold" />
+            <TextView
+                android:text="Grade"
+                android:textColor="#FFFFFF"
+                android:textStyle="bold" />
+        </TableRow>
+
+        <TableLayout
+            android:id="@+id/dynamicRows"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:stretchColumns="*"/>
+
+        <TableRow
+            android:paddingTop="10dp">
+            <TextView
+                android:id="@+id/tvSummary"
+                android:text="Total: 0 | Pass: 0 | Fail: 0"
+                android:layout_span="4"
+                android:textColor="@color/SlateGray"
+                android:textStyle="italic" />
+        </TableRow>
+
+        <TableRow>
+            <TextView
+                android:id="@+id/tvGPA"
+                android:text="GPA: 0.00"
+                android:textSize="24sp"
+                android:textStyle="bold"
+                android:layout_span="4"
+                android:gravity="center"
+                android:padding="20dp" />
+        </TableRow>
+
+        <TableRow
+            android:layout_marginTop="20dp">
+            <EditText
+                android:id="@+id/etSubName"
+                android:textStyle="bold"
+                android:hint="Subject"
+                android:layout_span="1"/>
+            <EditText
+                android:id="@+id/etObtained"
+                android:textStyle="bold"
+                android:hint="Obt."
+                android:inputType="number"/>
+            <EditText
+                android:id="@+id/etTotal"
+                android:textStyle="bold"
+                android:hint="Total"
+                android:inputType="number"/>
+
+        </TableRow>
+
+        <Button
+            android:id="@+id/btnAdd"
+            android:text="Add Subject"
+            android:layout_marginTop="10dp"/>
+
+
+    </TableLayout>
+</ScrollView>
